@@ -1,7 +1,8 @@
 <img width="1277" height="567" alt="image" src="https://github.com/user-attachments/assets/f63dbbd0-e46c-4042-9bdb-f7ad8d6ac7b6" />
 
 Ce projet est une solution au challenge Build a Telephone Number Validator de freeCodeCamp.
-##🔗 Live Website: https://calypsohebrard.github.io/fcc-Phone-validator/
+
+🔗 Live Website: https://calypsohebrard.github.io/fcc-Phone-validator/
 
 📋 Description
 
