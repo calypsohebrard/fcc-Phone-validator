@@ -1,7 +1,9 @@
 Ce projet est une solution au challenge Build a Telephone Number Validator de freeCodeCamp.
+
 📋 Description
 
 Une application web qui valide les numéros de téléphone américains selon des formats spécifiques. L'interface permet de saisir un numéro et d'obtenir instantanément un feedback sur sa validité.
+
 ✨ Fonctionnalités
 
     Validation en temps réel des numéros de téléphone
