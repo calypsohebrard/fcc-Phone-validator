@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --font-color:  #1b1b32;
+  --background-color: #b9b9ea;
+  --box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  --input-border:  1px solid #ddd;
+  --clear-button: linear-gradient(#ffb3ba, #ffeaec);       --clear-button-border-color: #ffd9d9;
+ --clear-button-hover: linear-gradient(#ad747a, #dc9ea4);
+ --clear-button-hover-border: #a67378;
+  --check-button: linear-gradient(#ffbb00, #ffe6a1);
+  --check-button-border-color: #fbecc4;
+  --check-button-hover: linear-gradient(#dea711, #f1dda7);
+  --check-button-hover-border: #bea45f; 
+
+}
+body {
+  font-family: sans-serif;
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--font-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow:  var(--box-shadow);
+ 
+}
+
+#user-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: var(--input-border);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  width: 100%; 
+}
+
+#check-btn {
+  background: var(--check-button);
+  border: 2px solid var( --check-button-border-color);
+}
+
+#check-btn:hover {
+  background: var(--check-button-hover);
+  border: 2px solid var(--check-button-hover-border);
+}
+
+#clear-btn {
+  background: var(--clear-button);
+  border: 2px solid var(--clear-button-border-color);
+}
+
+#clear-btn:hover {
+  background: var(--clear-button-hover);
+  border: 2px solid var(--clear-button-hover-border);
+}
+
+#results-div {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  text-align: center;
+  min-height: 50px;
+}
+
+/* Styles pour les résultats valides/invalides */
+.valid {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.invalid {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 15px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
